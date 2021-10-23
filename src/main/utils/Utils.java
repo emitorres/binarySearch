@@ -7,7 +7,7 @@ public final class Utils {
     private Utils(){}
 
     public static int binarySearch(int[] array, int number){
-        orderArray(array);
+        sortArray(array);
         int start = 0;
         int end = array.length - 1;
         int pos;
@@ -29,7 +29,7 @@ public final class Utils {
         return 0;
     }
 
-    private static void orderArray(int [] array){
+    private static void sortArray(int [] array){
         Arrays.sort(array);
     }
 }
